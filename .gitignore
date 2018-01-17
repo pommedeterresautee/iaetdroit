@@ -177,3 +177,7 @@ project/plugins/project/
 .lib/
 ### Scala template
 .Rproj.user
+*.csv
+*.Rproj
+# contain cache for RStudio Connect
+rsconnect

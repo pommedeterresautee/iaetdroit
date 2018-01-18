@@ -3,7 +3,6 @@ from codecs import open
 from os import path
 
 here = path.abspath(path.dirname(__file__))
-REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 # Get the long description from the README file
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
